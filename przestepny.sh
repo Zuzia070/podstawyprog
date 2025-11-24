@@ -1,4 +1,7 @@
+
 #!/usr/bin/bash
 
-#hashbang to usr/bin/bash
+
+read -p "podaj rok" rok
+
 

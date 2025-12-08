@@ -1,5 +1,5 @@
 #!/bin/bash
-declare -a t=(1 2 3 4 13)
+declare -a t=(1 2 5 4 13)
 suma=0
 for liczba in ${t[@]};do
 if (( liczba % 2 != 0 ));then

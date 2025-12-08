@@ -1,0 +1,9 @@
+#!/bin/bash
+declare i=39
+while ((i>=21));do
+((i=i-1))
+if !((i%2==0));then
+echo $i
+fi
+done
+

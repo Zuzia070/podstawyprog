@@ -1,0 +1,14 @@
+#!/bin/bash
+
+declare -x x=0
+declare -y y=0
+for ((x=0;x<=1000;x++ ));do
+((y=y+x))
+if ((x<200 || x>800));then
+echo $x
+echo $y #BEZ BREAK!!!!!
+
+fi
+
+
+done

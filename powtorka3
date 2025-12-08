@@ -1,0 +1,14 @@
+#!/bin/bash
+
+declare -x x=0
+declare -y y=0
+for ((x=1;x<=1000 && y<=300;x++ ));do
+((y=y+x))
+
+
+echo $x
+echo $y
+
+
+
+done

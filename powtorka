@@ -1,0 +1,24 @@
+#!/bin/bash
+declare -x x=0
+declare -y y=0
+for ((x=0;x<=1000;x++ ));do
+((y=y+x))
+if ((y>=1000));then 
+break
+fi
+echo $x
+echo $y
+done
+
+declare  x=0
+declare  y=0
+while ((x<1000));do
+echo $x
+((x++))
+((y=y+x))
+if ((y>1000));then 
+break
+fi
+
+echo $y
+done
